@@ -62,7 +62,34 @@ body {
 }
 
 #page-header {
-  height: 200px;
+  height: 250px;
+  background: url("../img/image1.jpg");
+  background-position: 0 -100px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+#page-photo {
+  height: 250px;
+  background: url("../img/image2.jpg");
+  background-position: 0 -4800px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+#page-photo-2 {
+  height: 250px;
+  background: url("../img/image3.jpg");
+  background-position: 0 -400px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+#page-photo-3 {
+  height: 250px;
   background: url("../img/image1.jpg");
   background-position: 0 -360px;
   background-attachment: fixed;
@@ -70,7 +97,22 @@ body {
   border-bottom: 1px #eee solid;
   padding-top: 50px;
 }
-
 .about-img {
   margin-top: -80px;
+}
+#faq .card {
+  border: #444;
+}
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+#main-footer {
+  background: #000;
+  color: #fff;
 }
